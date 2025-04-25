@@ -22,8 +22,8 @@ Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Ora
 
 *Interact with the dashboard here*
 
-*SQL Queries used to inspect and perform analysis can be found here*<br><br><br><br>
-
+*SQL Queries used to inspect and perform analysis can be found here*
+<br><br>
 
 
 
@@ -32,7 +32,7 @@ Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Ora
 Jones' data contains four tables: downtime factors, products, line productivity, line downtime.<br>
 ![image](downtime model.png)
 
-<br><br><br>
+<br><br>
 
 # Executive Summary
 Over a 5-day observation period covering 4 operators and 38 production batches, Jones Soda experienced a level of downtime that significantly impacted operational efficiency and financial performance. 
@@ -45,7 +45,7 @@ Financially, the cost of this downtime is considerable. At the rate of $500 per 
 
 The sections that follow will explore which machines, operators, and factors are contributing most to this problem and offer targeted recommendations for cutting downtime by at least 50%.
 
-<br><br><br>
+<br><br>
 # Insights
 
 ### 1.  How did each operator do last week?
@@ -58,11 +58,11 @@ The sections that follow will explore which machines, operators, and factors are
 
 * Mac's Downtime Summary: Mac’s **total downtime was 332 minutes, costing the Jones Soda approximately $2,767**. He also worked with **8 batches**, but unlike Dennis, **Mac recorded the highest downtime cost and duration per batch**. Each of his batches **averaged 41.5 minutes of lost time, costing about $345.83 per batch**. His most affected day was on Thursday, where he lost 3.42 hours in a 7 and half hour shift. Over his 24-hour shift span, he lost more than 5 hours.
 
-<br><br><br>
+<br><br>
 
 ### 2.  How did Jones Soda loose money?
 **They lost money on two sides...machine side and operator side.**
-<br><br>
+<br>
 
 #### 2a. Machine side
 
@@ -78,14 +78,14 @@ The sections that follow will explore which machines, operators, and factors are
 
 <br>
 
->Insights!!!
+>Takeaways!!!
 >> Across all the problems tracked, **Cola, 600 ml stands out as the most affected product line. It appears in three out of five major problem areas, including inventory shortages, conveyor jams, and labeling issues**.
 
 >> **Orange, 600 ml machine is no mixed case. It had the highest downtime from machine failure** but showed no issues in any other area.
 
 >> **Lemon Lime, 600 ml machine is the strongest performer**, showing no downtime from any major machine issue.
 
-<br><br>
+<br>
 
 #### 2bi. Operator side
 
@@ -100,9 +100,10 @@ Not all downtime comes from machine malfunctioning. Sometimes, the operators mak
 * Mac: He also had 192 minutes of operator-related downtime, costing the company $1,600. But unlike the others, **his biggest challenge was batch change, which led to 130 minutes (68%) of delay, costing a steep $1,083**.
 <br>
 
-> **The biggest issue across all four operators is machine adjustment. Charlie, Dee, and Dennis all lost the most time this way**. 
-
-> **On the other hand, Mac is the exception as his main issue is with batch changeovers**, not adjustments.
+>Takeaways!!!
+>
+>> **The biggest issue across all four operators is machine adjustment. Charlie, Dee, and Dennis all lost the most time this way**. 
+>> **On the other hand, Mac is the exception as his main issue is with batch changeovers**, not adjustments.
 
 
 <br>
@@ -114,10 +115,34 @@ Not all downtime comes from machine malfunctioning. Sometimes, the operators mak
 In the previous week, **Charlie** had the lowest avg. number of downtime factors/batch on **Cola 2L and Cola 600ml**;  **Dee, on Diet Cola 600ml**;  **Dennis, on Root Bear 600ml and Cola 600ml**;  and **Mac, on Diet Cola 600ml**
 
 
-> Insights!!!
+> Takeaways!!!
 >>
 >> **Dee accumulated no downtime minute/cost on Diet Cola 600ml**.
 >> **Mac worked on 4 product machines**. For an operator working two days a week unlike the other operators that works three days, this suggests excessiveness.
+
+
+<br><br>
+# Recommendations
+
+> **Goal: Reduce total downtime by 50%**
+
+* **Fix Machine Failures**: Fix machine failures on all machines and create a maintenance checklist and inspect the machines every week.   
+* **Training**: Train operators on machine adjustment and batch change (Mac especially, on batch change and others on machine adjustment especially)
+* **Assign Operators to the Machines They Handle Best**: 
+ - **Dee on Diet Cola 600ml and Cola 600ml** because he had no downtime on DC 600ml and he is one of those who had the least avg. number of downtime factors on CO 600ml.
+ - **Charlie on Cola 2L and Lemon Lime 600ml** because he had the least avg. number of downtime factors on both products.
+ - **Dennis on Root Beer 600ml** because he had the least avg. number of downtime factors on the product and Cola 600 ml because production of this product is huge, therefore more 
+   hands are needed.
+ - **Mac produce Orange 600ml** because he is the only operator that has operated on the product machine.
+<br><br>
+
+
+
+
+
+
+
+
 
 
 
