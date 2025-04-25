@@ -29,12 +29,13 @@ Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Ora
 
 # Data Structure
 
-Jones' data contains four tables: downtime factors, products, line productivity, line downtime. Date table was added to
+Jones' data contains four tables: downtime factors, products, line productivity, line downtime.
 ![data model](downtime model.png)
 
 
 
-
+# Executive Summary
+We lost over $11,000 in 5 days due to downtime 
 
 
 
