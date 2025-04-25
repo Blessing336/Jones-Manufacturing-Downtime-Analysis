@@ -35,7 +35,28 @@ Jones' data contains four tables: downtime factors, products, line productivity,
 
 
 # Executive Summary
-We lost over $11,000 in 5 days due to downtime 
+Over a 5-day observation period covering 4 operators and 38 production batches, Jones Soda experienced a level of downtime that significantly impacted operational efficiency and financial performance. 
+
+In total, 1,388 minutes of production were lost due to inefficiencies on the operators' side and product machines' side. When converted into hours, this adds up to approximately 23.13 hours, almost equivalent to losing all operator's full shift of production time just within a single working week.
+
+Financially, the cost of this downtime is considerable. At the rate of $500 per hour of downtime, the total loss amounted to $11,566.67 that could otherwise be allocated to growth activities, maintenance improvements, or employee development. The severity of the financial impact, especially over such a short time frame, underscores the urgent need to identify and eliminate the root causes of downtime.
+
+On average, each batch experienced 36.5 minutes of downtime and an average downtime cost of $304.39 per batch without even factoring in additional losses from potential product waste, overtime, or missed delivery windows.
+
+The sections that follow will explore which machines, operators, and factors are contributing most to this problem and offer targeted recommendations for cutting downtime by at least 50%.
+
+
+# Insights
+
+
+
+
+
+
+
+
+
+
 
 
 
