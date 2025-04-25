@@ -50,7 +50,10 @@ The sections that follow will explore which machines, operators, and factors are
 
 ### 1.  How did each operator do last week?
 
-* Charlie's Downtime Summary: Charlie recorded the **highest total downtime minutes and cost among all operators, at 384 minutes and $3,200 respectively**. He was responsible for managing **11 batches**, with **each batch averaging 34.91 minutes of downtime and costing the company approximately $290.91**. Charlie’s most affected day was Monday, where he lost 3.18 hours of production time—more than half of his total downtime. Over the course of the week, Charlie worked 24 hours and lost a quarter of those hours to downtime.<br>
+* Charlie's Downtime Summary: Charlie recorded the **highest total downtime minutes and cost among all operators, at 384 minutes and $3,200 respectively**. He was responsible for managing **11 batches**, with **each batch averaging 34.91 minutes of downtime and costing the company approximately $290.91**. Charlie’s most affected day was Monday, where he lost 3.18 hours of production time—more than half of his total downtime. Over the course of the week, Charlie worked 24 hours and lost a quarter of those hours to downtime.
+![Charlie's Summary](charlie's summary.png)
+
+<br>
 
 * Dee's Downtime Summary: Dee also managed **11 batches**, similar to Charlie, but with **slightly lower downtime at 370 minutes**. This downtime cost the company an **estimated $3,083**. On average, **each of Dee’s batches lost 33.64 minutes to downtime and cost around $280.30**. His worst day was Monday, which saw 2.72 hours of lost production. And like Charlie, Dee lost a quarter to downtime throughout the week.<br>
 
