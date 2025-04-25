@@ -129,11 +129,11 @@ In the previous week, **Charlie** had the lowest avg. number of downtime factors
 * **Fix Machine Failures**: Fix machine failures on all machines and create a maintenance checklist and inspect the machines every week.   
 * **Training**: Train operators on machine adjustment and batch change (Mac especially, on batch change and others on machine adjustment especially)
 * **Assign Operators to the Machines They Handle Best**: 
- - **Dee on Diet Cola 600ml and Cola 600ml** because he had no downtime on DC 600ml and he is one of those who had the least avg. number of downtime factors on CO 600ml.
- - **Charlie on Cola 2L and Lemon Lime 600ml** because he had the least avg. number of downtime factors on both products.
- - **Dennis on Root Beer 600ml** because he had the least avg. number of downtime factors on the product and Cola 600 ml because production of this product is huge, therefore more 
+   **Dee on Diet Cola 600ml and Cola 600ml** because he had no downtime on DC 600ml and he is one of those who had the least avg. number of downtime factors on CO 600ml.
+   **Charlie on Cola 2L and Lemon Lime 600ml** because he had the least avg. number of downtime factors on both products.
+   **Dennis on Root Beer 600ml** because he had the least avg. number of downtime factors on the product and Cola 600 ml because production of this product is huge, therefore more 
    hands are needed.
- - **Mac produce Orange 600ml** because he is the only operator that has operated on the product machine.
+   **Mac produce Orange 600ml** because he is the only operator that has operated on the product machine.
 <br><br>
 
 
