@@ -14,7 +14,7 @@ Identifies and quantifies downtime due to machine-related issues (e.g., failures
 Evaluates operator-specific errors, including machine misadjustments and inefficiencies during batch changes. Tracks downtime minutes and costs attributable to each operator, and pinpoints common error types.
 
 * Operator-Machine Specialization Profiling:
-Attempts to determine which operators perform best on which product machines by comparing error type frequency to number of batches handled—guiding smarter workforce assignments.
+Attempts to determine which operators perform best on which production lines by comparing error type frequency to number of batches handled—guiding smarter workforce assignments.
 
 * Product-Level Vulnerability Assessment:
 Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Orange).<br><br><br>
@@ -41,9 +41,9 @@ Jones' data contains four tables: downtime factors, products, line productivity,
 # Executive Summary
 Over a 5-day observation period covering 4 operators and 38 production batches, Jones Soda experienced a level of downtime that significantly impacted operational efficiency and financial performance. 
 
-**In total, 1,388 minutes of production were lost due to inefficiencies on operator side and product machine side**. When converted into hours, this adds up to approximately 23.13 hours, almost equivalent to losing all 4 operator's full shift of production time just within a single week.
+**In total, 1,388 minutes of production were lost due to inefficiencies on operator and production line side**. When converted into hours, this adds up to approximately 23.13 hours, almost equivalent to losing all 4 operator's full shift of production time just within a single week.
 
-Financially, the cost of this downtime is considerable. At the rate of $500 per hour of downtime (this rate factors in additional losses from potential product waste, overtime, or missed delivery windows), **the total loss amounted to $11,566.67** that could otherwise be allocated to growth activities, maintenance improvements, or employee development. **On average, each batch experienced 36.5 minutes of downtime and an average downtime cost of $304.39 per batch**.
+Financially, the cost of this downtime is considerable. At the rate of $500 per hour of downtime, **the total loss amounted to $11,566.67** that could otherwise be allocated to growth activities, maintenance improvements, or employee development. **On average, each batch experienced 36.5 minutes of downtime and an average downtime cost of $304.39 per batch**.
 
 The sections that follow will explore which machines, operators, and factors are contributing most to this problem and offer targeted recommendations for cutting downtime by at least 50%.
 
@@ -128,7 +128,7 @@ Not all downtime comes from machine malfunctioning. Sometimes, the operators mak
 
 #### 2bii. Operator-Machine Specialization Profiling
 
-**What is the avg. number of downtime factors/batch on each product machine by each operator?**
+**What is the avg. number of downtime factors/batch on each production line by each operator?**
 
 In the previous week, **Charlie** had the lowest avg. number of downtime factors/batch on **Cola 2L and Cola 600ml**;  **Dee, on Diet Cola 600ml**;  **Dennis, on Root Bear 600ml and Cola 600ml**;  and **Mac, on Diet Cola 600ml**
 
@@ -139,7 +139,7 @@ In the previous week, **Charlie** had the lowest avg. number of downtime factors
 > Takeaways!!!
 >> **Dee accumulated no downtime minute/cost on Diet Cola 600ml**.
 >>
->> **Mac worked on 4 product machines**, unlike the others. 
+>> **Mac worked on 4 production lines**, unlike the others. 
 
 <br><br>
 # Recommendations
@@ -158,7 +158,7 @@ In the previous week, **Charlie** had the lowest avg. number of downtime factors
    **Charlie on Cola 2L and Lemon Lime 600ml** because he had the least avg. number of downtime factors on both products.
    **Dennis on Root Beer 600ml** because he had the least avg. number of downtime factors on the product and Cola 600 ml because production of this product is huge, therefore more 
    hands are needed.
-   **Mac on Orange 600ml** because he is the only operator that has operated on the product machine.
+   **Mac on Orange 600ml** because he is the only operator that has operated on the production line.
 <br><br>
 
 # Key Questions for Stakeholders Prior to Project Advancement
@@ -177,7 +177,7 @@ In the previous week, **Charlie** had the lowest avg. number of downtime factors
 
 * Inventory shortage downtimes are assumed to result from supply chain gaps rather than operator negligence. This places the emphasis for fixing these issues on material management, not individual operator behavior.
 
-* Operator specialization was assessed using downtime factor types per product machine divided by batches, but it is acknowledged that some operators may have worked under different conditions (older machines, bigger rush orders, etc.) that were not fully captured in the raw data.
+* Operator specialization was assessed using downtime factor types per production line divided by batches, but it is acknowledged that some operators may have worked under different conditions (older machines, bigger rush orders, etc.) that were not fully captured in the raw data.
 
 
 
