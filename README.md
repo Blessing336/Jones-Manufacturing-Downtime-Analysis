@@ -20,7 +20,7 @@ Attempts to determine which operators perform best on which product machines by 
 Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Orange).<br><br><br>
 
 
-*Interact with the dashboard here*
+*Interact with the dashboard* [here](https://ooojege-my.sharepoint.com/:x:/g/personal/blessing_ooojege_onmicrosoft_com/ERtvZqVV_U9BmnMzlDfTnBcBf2UNfCGYMPeL3O5OI3iXrA?e=ZcTUcq "Report")
 
 *SQL Queries used to inspect and perform analysis can be found here*
 <br><br>
