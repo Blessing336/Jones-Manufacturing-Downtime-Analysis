@@ -31,7 +31,7 @@ Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Ora
 
 Jones' data contains four tables: downtime factors, products, line productivity, line downtime.<br>
 <div align="center">
-  <img src="https://i.imgur.com/8BgVXcY.png">
+  <img src="downtime%20model.png">
 </div>
 
 <br><br>
@@ -53,16 +53,25 @@ The sections that follow will explore which machines, operators, and factors are
 ### 1.  How did each operator do last week?
 
 * Charlie's Downtime Summary: Charlie recorded the **highest total downtime minutes and cost among all operators, at 384 minutes and $3,200 respectively**. He was responsible for managing **11 batches**, with **each batch averaging 34.91 minutes of downtime and costing the company approximately $290.91**. Charlie’s most affected day was Monday, where he lost 3.18 hours of production time—more than half of his total downtime. Over the course of the week, Charlie worked 24 hours and lost a quarter of those hours to downtime.
-![charlie's summary](charlie's%20summary.png)
+<div align="center">
+  <img src="charlie's%20summary.png">
+</div>
 
 * Dee's Downtime Summary: Dee also managed **11 batches**, similar to Charlie, but with **slightly lower downtime at 370 minutes**. This downtime cost the company an **estimated $3,083**. On average, **each of Dee’s batches lost 33.64 minutes to downtime and cost around $280.30**. His worst day was Monday, which saw 2.72 hours of lost production. And like Charlie, Dee lost a quarter to downtime throughout the week.
-![dee's summary](dee's%20summary.png)
+<div align="center">
+  <img src="dee's%20summary.png">
+</div>
 
 * Dennis' Downtime Summary: Dennis had the shortest shift time overall, working only 16 hours. Despite this, **he experienced 302 minutes of downtime**, a very high proportion compared to the time he actually worked. He handled **8 batches**, and each **experienced an average of 37.75 minutes of downtime, costing approximately $314.58**. This makes Dennis an expensive operator in terms of downtime per batch. His most affected day was Friday, with 2.55 hours of downtime. Since Dennis only worked 16 hours total, losing 5 hours means that nearly a third of his working time was non-productive.
-![dennis' summary](dennis'%20summary.png)
+<div align="center">
+  <img src="dennis'%20summary.png">
+</div>
 
 * Mac's Downtime Summary: Mac’s **total downtime was 332 minutes, costing the Jones Soda approximately $2,767**. He also worked with **8 batches**, but unlike Dennis, **Mac recorded the highest downtime cost and duration per batch**. Each of his batches **averaged 41.5 minutes of lost time, costing about $345.83 per batch**. His most affected day was on Thursday, where he lost 3.42 hours in a 7 and half hour shift. Over his 24-hour shift span, he lost more than 5 hours.
-                ![mac' summary](mac's%20summary.png)
+<div align="center">
+  <img src="mac's%20summary.png">
+</div>
+
 <br><br>
 
 ### 2.  How did Jones Soda loose money?
