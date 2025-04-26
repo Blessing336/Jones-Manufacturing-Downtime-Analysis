@@ -115,7 +115,7 @@ Not all downtime comes from machine malfunctioning. Sometimes, the operators mak
 
 * Mac: He also had 192 minutes of operator-related downtime, costing the company $1,600. But unlike the others, **his biggest challenge was batch change, which led to 130 minutes (68%) of delay, costing a steep $1,083**.
 <div align="center">
-  <img src="downtime%20model.png">
+  <img src="operator%20standpoint.png">
 </div>
 
 >Takeaways!!!
