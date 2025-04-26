@@ -30,7 +30,9 @@ Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Ora
 # Data Structure
 
 Jones' data contains four tables: downtime factors, products, line productivity, line downtime.<br>
-charlie's summary.png
+<div align="center">
+  <img src="https://i.imgur.com/8BgVXcY.png">
+</div>
 
 <br><br>
 
@@ -60,7 +62,7 @@ The sections that follow will explore which machines, operators, and factors are
 ![dennis' summary](dennis'%20summary.png)
 
 * Mac's Downtime Summary: Mac’s **total downtime was 332 minutes, costing the Jones Soda approximately $2,767**. He also worked with **8 batches**, but unlike Dennis, **Mac recorded the highest downtime cost and duration per batch**. Each of his batches **averaged 41.5 minutes of lost time, costing about $345.83 per batch**. His most affected day was on Thursday, where he lost 3.42 hours in a 7 and half hour shift. Over his 24-hour shift span, he lost more than 5 hours.
-![mac' summary]()
+                ![mac' summary](mac's%20summary.png)
 <br><br>
 
 ### 2.  How did Jones Soda loose money?
