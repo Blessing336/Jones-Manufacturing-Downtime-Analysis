@@ -91,7 +91,7 @@ The sections that follow will explore which machines, operators, and factors are
 * Emergency Stops: **Low priority for now.** While emergency stop events were recorded, they didn’t lead to any actual downtime during this period.
 
 <div align="center">
-  <img src="downtime%20model.png">
+  <img src="machine%20standpoint.png">
 </div>
 
 >Takeaways!!!
