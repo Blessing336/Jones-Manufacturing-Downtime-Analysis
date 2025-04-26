@@ -90,7 +90,9 @@ The sections that follow will explore which machines, operators, and factors are
 
 * Emergency Stops: **Low priority for now.** While emergency stop events were recorded, they didn’t lead to any actual downtime during this period.
 
-<br>
+<div align="center">
+  <img src="downtime%20model.png">
+</div>
 
 >Takeaways!!!
 >> Across all the problems tracked, **Cola, 600 ml stands out as the most affected product line. It appears in three out of five major problem areas, including inventory shortages, conveyor jams, and labeling issues**.
@@ -112,7 +114,9 @@ Not all downtime comes from machine malfunctioning. Sometimes, the operators mak
 * Dennis: He caused a total of 164 minutes of downtime, costing the company $1,366.67. **120 minutes (70%) of that came from machine adjustment mistakes, which alone cost $1,000**. On the positive side, Dennis had no downtime from batch change.
 
 * Mac: He also had 192 minutes of operator-related downtime, costing the company $1,600. But unlike the others, **his biggest challenge was batch change, which led to 130 minutes (68%) of delay, costing a steep $1,083**.
-<br>
+<div align="center">
+  <img src="downtime%20model.png">
+</div>
 
 >Takeaways!!!
 >
@@ -128,7 +132,9 @@ Not all downtime comes from machine malfunctioning. Sometimes, the operators mak
 
 In the previous week, **Charlie** had the lowest avg. number of downtime factors/batch on **Cola 2L and Cola 600ml**;  **Dee, on Diet Cola 600ml**;  **Dennis, on Root Bear 600ml and Cola 600ml**;  and **Mac, on Diet Cola 600ml**
 
-
+<div align="center">
+  <img src="downtime%20model.png">
+</div>
 > Takeaways!!!
 >>
 >> **Dee accumulated no downtime minute/cost on Diet Cola 600ml**.
@@ -139,7 +145,9 @@ In the previous week, **Charlie** had the lowest avg. number of downtime factors
 # Recommendations
 
 > **Goal: Reduce total downtime by 50%**
-
+<div align="center">
+  <img src="downtime%20model.png">
+</div>
 * **Fix Machine Failures**: Fix machine failures on all machines and create a maintenance checklist and inspect the machines every week.   
 * **Training**: Train operators on machine adjustment and batch change (Mac especially, on batch change and others on machine adjustment especially)
 * **Assign Operators to the Machines They Handle Best**: 
