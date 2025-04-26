@@ -39,18 +39,16 @@ Jones' data contains four tables: downtime factors, products, line productivity,
 # Executive Summary
 Over a 5-day observation period covering 4 operators and 38 production batches, Jones Soda experienced a level of downtime that significantly impacted operational efficiency and financial performance. 
 
-**In total, 1,388 minutes of production were lost due to inefficiencies on operator's side and product machine's side**. When converted into hours, this adds up to approximately 23.13 hours, almost equivalent to losing all operator's full shift of production time just within a single working week.
+**In total, 1,388 minutes of production were lost due to inefficiencies on operator side and product machine side**. When converted into hours, this adds up to approximately 23.13 hours, almost equivalent to losing all 4 operator's full shift of production time just within a single week.
 
-Financially, the cost of this downtime is considerable. At the rate of $500 per hour of downtime, **the total loss amounted to $11,566.67** that could otherwise be allocated to growth activities, maintenance improvements, or employee development. The severity of the financial impact, especially over such a short time frame, underscores the urgent need to identify and eliminate the root causes of downtime.
-
-**On average, each batch experienced 36.5 minutes of downtime and an average downtime cost of $304.39 per batch** without even factoring in additional losses from potential product waste, overtime, or missed delivery windows.
+Financially, the cost of this downtime is considerable. At the rate of $500 per hour of downtime (this rate factors in additional losses from potential product waste, overtime, or missed delivery windows), **the total loss amounted to $11,566.67** that could otherwise be allocated to growth activities, maintenance improvements, or employee development. **On average, each batch experienced 36.5 minutes of downtime and an average downtime cost of $304.39 per batch**.
 
 The sections that follow will explore which machines, operators, and factors are contributing most to this problem and offer targeted recommendations for cutting downtime by at least 50%.
 
 <br><br>
 # Insights
 
-### 1.  How did each operator do last week?
+### 1.  How did Each Operator do Last Week?
 
 * Charlie's Downtime Summary: Charlie recorded the **highest total downtime minutes and cost among all operators, at 384 minutes and $3,200 respectively**. He was responsible for managing **11 batches**, with **each batch averaging 34.91 minutes of downtime and costing the company approximately $290.91**. Charlie’s most affected day was Monday, where he lost 3.18 hours of production time—more than half of his total downtime. Over the course of the week, Charlie worked 24 hours and lost a quarter of those hours to downtime.
 <div align="center">
@@ -74,11 +72,11 @@ The sections that follow will explore which machines, operators, and factors are
 
 <br><br>
 
-### 2.  How did Jones Soda loose money?
+### 2.  How did Jones Soda Loose Money?
 **They lost money on two sides...machine side and operator side.**
 <br>
 
-#### 2a. Machine side
+#### 2a. Machine Side
 
 * Machine Failure: **The most costly and frequent downtime factor**. Out of all the recorded reasons for downtime, machine failure **was responsible for 254 minutes, which makes up over 41% of total machine-related downtime**. The Orange, 600 ml production line was affected the most by this factor and in contrast, the Lemon Lime, 600 ml machines had zero downtime from machine failure.
 
@@ -103,7 +101,7 @@ The sections that follow will explore which machines, operators, and factors are
 
 <br>
 
-#### 2bi. Operator side
+#### 2bi. Operator Side
 
 Not all downtime comes from machine malfunctioning. Sometimes, the operators make mistakes that stop the production line. These are called operator-side downtimes, and just like mechanical failures, they cost the company valuable time and money.
 
@@ -135,31 +133,49 @@ In the previous week, **Charlie** had the lowest avg. number of downtime factors
 <div align="center">
   <img src="operator%20standpoint1.png">
 </div>
-> Takeaways!!!
->>
->> **Dee accumulated no downtime minute/cost on Diet Cola 600ml**.
->> **Mac worked on 4 product machines**. For an operator working two days a week unlike the other operators that works three days, this suggests excessiveness.
 
+> Takeaways!!!
+>> **Dee accumulated no downtime minute/cost on Diet Cola 600ml**.
+>>
+>> **Mac worked on 4 product machines**, unlike the others. 
 
 <br><br>
 # Recommendations
 
 > **Goal: Reduce total downtime by 50%**
+
 <div align="center">
   <img src="recommendation.png">
 </div>
+
 * **Fix Machine Failures**: Fix machine failures on all machines and create a maintenance checklist and inspect the machines every week.   
 * **Training**: Train operators on machine adjustment and batch change (Mac especially, on batch change and others on machine adjustment especially)
 * **Assign Operators to the Machines They Handle Best**: 
+
    **Dee on Diet Cola 600ml and Cola 600ml** because he had no downtime on DC 600ml and he is one of those who had the least avg. number of downtime factors on CO 600ml.
    **Charlie on Cola 2L and Lemon Lime 600ml** because he had the least avg. number of downtime factors on both products.
    **Dennis on Root Beer 600ml** because he had the least avg. number of downtime factors on the product and Cola 600 ml because production of this product is huge, therefore more 
    hands are needed.
-   **Mac produce Orange 600ml** because he is the only operator that has operated on the product machine.
+   **Mac on Orange 600ml** because he is the only operator that has operated on the product machine.
 <br><br>
 
+# Key Questions for Stakeholders Prior to Project Advancement
+
+> These questions would help deepen understanding of the existing knowledge and context surrounding the project objectives.
+
+* Should specific production lines be prioritized for improvement efforts, given that Cola 600ml batches alone account for approximately 40% of total production activity (15 out of 38 batches), while the remaining five product lines collectively share the other 23 batches?
+
+* What existing maintenance routines or operator training programs are already in place? Are there weekly machine inspections, and how often are operators retrained?
 
 
+
+<br><br>
+# Assumptions and Caveats
+* The downtime cost of $500 per hour already includes combined factors such as operator wages during idle time, costs from potential product waste (e.g., spoiled soda during stoppage), overtime payments for production recovery, and losses linked to missed delivery deadlines.
+
+* Inventory shortage downtimes are assumed to result from supply chain gaps rather than operator negligence. This places the emphasis for fixing these issues on material management, not individual operator behavior.
+
+* Operator specialization was assessed using downtime factor types per product machine divided by batches, but it is acknowledged that some operators may have worked under different conditions (older machines, bigger rush orders, etc.) that were not fully captured in the raw data.
 
 
 
