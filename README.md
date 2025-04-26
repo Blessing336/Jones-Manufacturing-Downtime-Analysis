@@ -133,7 +133,7 @@ Not all downtime comes from machine malfunctioning. Sometimes, the operators mak
 In the previous week, **Charlie** had the lowest avg. number of downtime factors/batch on **Cola 2L and Cola 600ml**;  **Dee, on Diet Cola 600ml**;  **Dennis, on Root Bear 600ml and Cola 600ml**;  and **Mac, on Diet Cola 600ml**
 
 <div align="center">
-  <img src="downtime%20model.png">
+  <img src="operator%20standpoint1.png">
 </div>
 > Takeaways!!!
 >>
