@@ -146,7 +146,7 @@ In the previous week, **Charlie** had the lowest avg. number of downtime factors
 
 > **Goal: Reduce total downtime by 50%**
 <div align="center">
-  <img src="downtime%20model.png">
+  <img src="recommendation.png">
 </div>
 * **Fix Machine Failures**: Fix machine failures on all machines and create a maintenance checklist and inspect the machines every week.   
 * **Training**: Train operators on machine adjustment and batch change (Mac especially, on batch change and others on machine adjustment especially)
