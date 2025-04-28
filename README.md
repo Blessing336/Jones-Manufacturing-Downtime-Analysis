@@ -22,7 +22,7 @@ Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Ora
 
 *Interact with the dashboard [here](https://ooojege-my.sharepoint.com/:x:/g/personal/blessing_ooojege_onmicrosoft_com/ERtvZqVV_U9BmnMzlDfTnBcBf2UNfCGYMPeL3O5OI3iXrA?e=N2YNZB "Report")*
 
-*Download PDF Report [here](https://ooojege-my.sharepoint.com/:b:/g/personal/blessing_ooojege_onmicrosoft_com/EdoNPVosARNMqBVRIM6EKeoBRESiee7KpcmH50kOVNkIBQ?e=w6GKbG "PDF")*
+*Download PDF Report [here](https://ooojege-my.sharepoint.com/:b:/g/personal/blessing_ooojege_onmicrosoft_com/EVp77krmeLdBljMex7UlDRoBUnaYf8pxRNSxAzzAdoixMQ?e=Dn4SGe) "PDF")*
 
 *SQL Queries used to inspect and perform analysis can be found [here](https://ooojege-my.sharepoint.com/:w:/g/personal/blessing_ooojege_onmicrosoft_com/EcLamtNtfyVLi0pPFNRnPEEBJlLqak_FxwqDwZkkqxs2Mw?e=kwseyi)*
 <br><br>
