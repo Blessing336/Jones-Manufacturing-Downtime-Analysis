@@ -32,9 +32,11 @@ Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Ora
 # Data Structure
 
 Jones' data contains four tables: downtime factors, products, line productivity, line downtime.<br>
-<div align="center">
+/*<div align="center">
   <img src="downtime%20model.png">
-</div>
+</div>*/
+
+![Data Structure](https://github.com/Blessing336/Jones-Manufacturing-Downtime-Analysis/blob/6c0aebee9d457a8b4258d8ba74ceecfa79f544cf/Manufacturing.png)
 
 <br><br>
 
