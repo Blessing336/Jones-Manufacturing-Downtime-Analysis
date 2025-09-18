@@ -8,7 +8,7 @@ The primary objective of this project is to analyze, visualize, and interpret pr
 
 ### Key Analysis & Recommendation Areas
 * Machine-Side Downtime Diagnosis:
-Identifies and quantifies downtime due to machine-related issues (e.g., failures, jams, inventory shortages). 
+Identifies and quantifies downtime due to machine-related issues (like failures, jams, inventory shortages). 
 
 * Operator Performance Review:
 Evaluates operator-specific errors, including machine misadjustments and inefficiencies during batch changes. Tracks downtime minutes and costs attributable to each operator, and pinpoints common error types.
@@ -20,20 +20,144 @@ Attempts to determine which operators perform best on which production lines by 
 Maps downtime causes across different soda products (e.g., Cola, Lemon Lime, Orange).<br><br><br>
 
 
+
+# Data Structure
+
+The dataset is organised into four tables: line_productivity, products, line_downtime, and downtime_factors. Together, these tables capture the end-to-end process of producing flavored sodas, logging when production happens, what is being produced, which operator is responsible, and what downtime issues occur. 
+
+<br/>
+
+**1. line_productivity**: This table captures the actual production activity on the manufacturing lines. It shows when production lines are active and how long batches take, enables comparison between planned vs actual time (linking to products.min_batch_time), links operator performance to batch outcomes (delays, efficiency), and forms the backbone for tracking order fulfillment delays and internal costs tied to inefficiency.
+
+**Columns:**
+
+**date**: The production date.
+
+**product:** Product ID, which links to the products table.
+
+**batch:** Unique identifier for each production.
+
+**operator:** The operator assigned to that batch.
+
+**start_time:** Time production began.
+
+**end_time:** Time production ended.
+
+<br/>
+
+**2. products**: This table describes the sodas being produced and their expected minimum batch times. It provides the baseline standard for comparing actual production speed (from line_productivity), helps identify which products are slower than expected and contribute to delayed orders, and allows product-specific analysis.
+
+**Columns:**
+
+**product:** Unique product name/ID.
+
+**flavor:** Flavor of the soda (Cola, Root Beer, Lemon, Orange).
+
+**size:** Packaging size (600ml, 2l).
+
+**min_batch_time:** The expected time to produce a batch under normal conditions.
+
+<br/>
+
+**3. line_downtime**: This table records downtime events for each batch. It connects operational records (batches) to downtime causes (factors), provides the numbers needed to measure if Jones Soda is achieving its target of reducing downtime by **50%**, and supports cost estimation where every downtime minute represents wasted labour, energy, and missed throughput
+
+**Columns:**
+
+**batch:** Batch ID, foreign key linked to line_productivity.
+
+**factor:** Downtime cause, linked to downtime_factors.
+
+**downtime_mins:** Total minutes lost due to downtime for that factor during the batch.
+
+<br/>
+
+**4. downtime_factors:** This table defines the root causes of downtime.
+
+**Columns:**
+
+**factor:** Unique ID for each downtime factor.
+
+**description:** Text description of the issue (eg Machine Failure, Labeling Error, Conveyor Jam).
+
+**operator_error:** Flag indicating if the cause was due to operator mistake.
+
+<br>
+
+![Data Structure](https://github.com/Blessing336/Jones-Manufacturing-Downtime-Analysis/blob/be296e404a91981bf0b2cc2252369723c776dd62/Data%20Structure.png)
+
+<br><br>
+
+# Technical Details
+
+The analysis was carried out entirely in Excel, **using dynamic functions instead of pivot tables**. The process moved from **data cleaning → metric calculation → visualization**. Below are the steps taken, the tools used, and the functions applied at each stage.
+
+<br>
+
+**Workflow**
+
+* **Imported** raw CSVs into Excel.
+
+* **Cleaned** the data (only formats, there are no duplicates and missing values).
+
+* **Calculated new columns** (day, hrs/mins, product name n size).
+
+* Used **dynamic and other Excel formulas** (UNIQUE, SORTBY, SUMIFS, AVERAGEIFS, FILTER, IF) to build automated summary tables.
+
+* Built **reports** directly in Excel using simple charts (bar charts, donut charts, and heatmaps).
+
+<br/>
+
+**1. Data Import and Initial Cleaning**
+
+**Actions:**
+
+* Imported the four CSV files: line_productivity, products, line_downtime, and downtime_factors.
+
+* Converted date column to proper date format for filtering and time-based analysis.
+
+* Added 3 columns: day column **(formula: =TEXT([@date], "dddd"))**, hrs/mins column **(formula: =TEXT(MOD([@[end_time]] - [@[start_time]], 1),"hh:mm"))**, product name n size column **(formula: =TEXTJOIN(", ", TRUE, [@flavor],[@size]))**
+
+<br/>
+
+**2. Derived Calculations**
+
+**Functions used:**
+
+* **SORT() / =SORTBY()**: To order downtime causes, operators, and products by performance metrics (e.g. highest downtime minutes, slowest batch times)
+
+* **FILTER()**: To extract subsets of data (downtime for a specific product or operator)
+
+* **AVERAGEIFS()**: To calculate average cycle times by operator, by product, and by month
+
+* **SUMIFS()**: To aggregate downtime minutes by cause, by operator, and by product
+
+<br/>
+
+Key derived metrics: **downtime mins, downtime hrs, downtime cost, % downtime, number of batches**
+
+<br/>
+
+**3. Aggregation and Comparison**
+
+* **Built summary tables** with UNIQUE() + SUMIFS/AVERAGEIFS to create operator-level, product-level, and factor-level views.
+
+<br/>
+
+**4. Visualization**
+
+**Bar charts**: Top downtime factors ranked by minutes lost.
+
+**Donut charts**: Share of downtime by operator.
+
+**Heatmaps (conditional formatting on tables)**: Highlighted downtime by downtime factors and products, Highlighted average number of downtime factors/batch by operator and products.
+
+<br><br>
+
+
 *Interact with the dashboard [here](https://ooojege-my.sharepoint.com/:x:/g/personal/blessing_ooojege_onmicrosoft_com/ERtvZqVV_U9BmnMzlDfTnBcBf2UNfCGYMPeL3O5OI3iXrA?e=N2YNZB "Report")*
 
 *Download PDF Report [here](https://ooojege-my.sharepoint.com/:b:/g/personal/blessing_ooojege_onmicrosoft_com/EVp77krmeLdBljMex7UlDRoBUnaYf8pxRNSxAzzAdoixMQ?e=Dn4SGe "PDF")*
 
-*SQL Queries used to inspect and perform analysis can be found [here](https://ooojege-my.sharepoint.com/:w:/g/personal/blessing_ooojege_onmicrosoft_com/EcLamtNtfyVLi0pPFNRnPEEBJlLqak_FxwqDwZkkqxs2Mw?e=kwseyi)*
-<br><br>
-
-
-
-# Data Structure
-
-Jones' data contains four tables: downtime factors, products, line productivity, line downtime.<br>
-
-![Data Structure](https://github.com/Blessing336/Jones-Manufacturing-Downtime-Analysis/blob/be296e404a91981bf0b2cc2252369723c776dd62/Data%20Structure.png)
 
 <br><br>
 
